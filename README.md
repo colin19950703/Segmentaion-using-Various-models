@@ -21,12 +21,13 @@ https://drive.google.com/file/d/1isYSonaX_Bf1YFDTjMvKAynkZ09BfKEc/view?usp=shari
 - Vgg16_FCN
 
 ## Result
-<img src="./Result/ResUnet/0.result_0.png"></a>
 - ResUnet
-<img src="./Result/Unet/0.result_0.png"></a>
+<img src="./Result/ResUnet/0.result_0.png"></a>
 - Unet
-<img src="./Result/Vgg16_FCN/0.result_0.png"></a>
+<img src="./Result/Unet/0.result_0.png"></a>
 - Vgg16_FCN
+<img src="./Result/Vgg16_FCN/0.result_0.png"></a>
+
 
 - Vgg16은 coarse한 영역을 줄이기 위해 이전 feature map의 정보를 더하는 방법을 사용하였지만, Unet과 ResUnet에 비하면 성능이 매우 떨어졌다.
 - 추후 Unet과 ResUnet의 성능을 더 자세히 비교하고 어느것이 Segmentaion에 적합한 모델인지에 대한 실험을 진행 할 것이다.
